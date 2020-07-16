@@ -1,0 +1,231 @@
+/* RESET: Tirar estilos padrões indesejáveis */
+body, h1, h2, h3, p, ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #252525;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #000;
+}
+
+/* Menu */
+header {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: grey;
+    padding: 10px;
+    width: 450px;
+}
+
+.menu li {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    list-style: none;
+    padding: 10px;
+}
+
+.site-title {
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.imagem-apresentacao {
+    display: inline-block;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.intro {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtitulo-sobre {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.subtitulo-sobre:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin: 8px auto;
+}
+
+.subtitulo-sobre:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin: 8px auto;
+}
+
+.secao-sobre {
+    background: #000000;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.secao-sobre .ativo {
+    background: #000000;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.sobre {
+   display: block; 
+   text-align: center;
+   color: white;
+   margin: 0 auto;
+   max-width: 500px;
+}
+
+.menu ul li  a.ativo {
+    color: #000;
+}
+
+.secao-habilidades {
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.subtitulo-habilidades {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.subtitulo-habilidades:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #000;
+    margin: 8px auto;
+}
+
+.subtitulo-habilidades:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #000;
+    margin: 8px auto;
+}
+
+.lista-habilidades {
+    margin: 0 auto;
+    width: 120px;
+}
+
+.lista-habilidades li {
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
+
+.lista-contato {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+}
+
+.lista-contato li {
+    color: #FFF;
+    font-weight: bold;
+    display: block;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+.lista-contato li a:hover {
+    color: #FFF;
+}
+
+.secao-contato {
+    background: #000000;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.secao-contato p {
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitulo-contato {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.subtitulo-contato:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin: 8px auto;
+}
+
+.subtitulo-contato:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin: 8px auto;
+}
+
+.intro {
+    display: block;
+}

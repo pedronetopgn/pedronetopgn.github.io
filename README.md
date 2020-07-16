@@ -1,2 +1,2 @@
-# pedronetopgn.github.io
-Site contendo informações minhas como Dev.
+# my-website
+Website about me containing my projects and skills.
