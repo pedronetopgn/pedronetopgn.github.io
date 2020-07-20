@@ -29,7 +29,7 @@ header {
 }
 
 .menu {
-    background-color: grey;
+    background-color: #AAA;
     padding: 10px;
     width: 450px;
 }
@@ -228,4 +228,26 @@ header {
 
 .intro {
     display: block;
+}
+
+@media(max-width: 739px) {
+    .menu {
+        display: inline-block;
+        max-width: 300px;
+    }
+
+    .menu li {
+        max-width: 50px;
+        font-size: 14px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .imagem-apresentacao {
+        max-width: 300px;
+    }
+
+    .sobre {
+        padding: 10px;
+    }
 }
